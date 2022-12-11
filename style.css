@@ -1,0 +1,57 @@
+body{
+    background-color: antiquewhite;
+    
+}
+h1{
+    border:1px solid red;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    align-content: center;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    max-width: 100px;
+    
+}
+.Home{
+    background-color: yellow;
+    padding: 15px;
+    max-width: auto;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 80%;
+    margin: 0 auto;
+}
+.Projects{
+    width: 150px;
+    height: 300px;
+    border: 4px solid black;
+    background-color: lightgray;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+img{
+    max-width: 100px ;
+    display: block;
+    margin: auto;/*centra el tamaño de un elemento*/
+    border-radius: 20px;
+    margin: auto;
+}
+.add{
+    border: none;
+    background-color: lightgray;
+    color:crimson;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100px;
+    font-stretch: expanded;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
